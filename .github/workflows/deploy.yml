@@ -20,7 +20,7 @@ jobs:
 
       - name: Connect to EC2 and deploy
         run: |
-          ssh -o StrictHostKeyChecking=no ubuntu@52.90.238.34 << 'EOF'
+          ssh -o StrictHostKeyChecking=no ubuntu@44.201.199.70 << 'EOF'
             cd /var/www/project/cargo-service  # replace with your actual path
             git pull origin main
             echo "✅ Code pulled from GitHub"
